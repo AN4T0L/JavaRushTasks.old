@@ -1,0 +1,15 @@
+<div class="wdghtml" taskKey="com.javarush.task.task32.task3209.big01">
+<h3>HTML Editor (1)</h3>
+<p>Сегодня мы напишем <strong>HTML</strong> редактор с графическим интерфейсом. В качестве библиотеки для<br />
+создания графического интерфейса воспользуемся <strong><span class="text-corporate">Swing</span></strong>. А в качестве архитектурного каркаса<br />
+нашего приложения будем использовать <strong>MVC</strong> модель.<br />
+1.1. Объяви класс <span class="text-corporate"><strong>Controller</strong></span> и класс <span class="text-corporate"><strong>View</strong></span>. Класс <span class="text-corporate"><strong>View</strong></span> должен быть унаследован от <span class="text-corporate"><strong>JFrame</strong></span> и реализовывать интерфейс <span class="text-yellow"><strong>ActionListener</strong></span>.<br />
+1.2. Добавь в класс <span class="text-corporate"><strong>Controller</strong></span> поля, отвечающие за представление <span class="text-corporate"><strong>View</strong> </span><mark class="user">view</mark> и модель <strong><span class="text-corporate">HTMLDocument</span></strong> <mark class="user">document</mark>. Здесь и далее, классы, которые мы не объявляли, но используем в коде скорее всего все находятся в библиотеке <span class="text-corporate"><strong>swing</strong></span>. Например, класс <span class="text-corporate"><strong>HTMLDocument</strong></span> реализован в пакете <em><strong>javax.swing.text.html.</strong></em><br />
+1.3. Добавь в класс <span class="text-corporate"><strong>Controller</strong></span> поле, которое будет отвечать за файл, который сейчас открыт в нашем редакторе (<em>текущий файл</em>) <span class="text-corporate"><strong>File</strong></span> <mark class="user">currentFile</mark>.<br />
+1.4. Добавь конструктор класса <span class="text-corporate"><strong>Controller</strong></span>. Он должен принимать в качестве параметра представление и инициализировать соответствующее поле класса.<br />
+1.5. Добавь в <span class="text-corporate"><strong>Controller</strong></span> пустой метод <mark>main</mark>.<br />
+1.6. Добавь в класс <span class="text-corporate"><strong>View</strong></span> поле <span class="text-corporate"><strong>Controller</strong></span> <mark class="user">controller</mark>.<br />
+1.7. Добавь в класс <span class="text-corporate"><strong>View</strong></span> <strong>сеттер</strong> и <strong>геттер</strong> для поля <mark class="user">controller</mark>.<br />
+1.8. Добавь пустую реализацию метода, который объявлен в интерфейсе <strong><span class="text-yellow">ActionListener</span></strong>.</p>
+
+</div>
